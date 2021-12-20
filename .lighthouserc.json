@@ -1,0 +1,17 @@
+{
+  "ci": {
+    "assert": {
+      "assertions": {
+        "first-contentful-paint": ["error", { "minScore": 0.6 }]
+      }
+    },
+    "collect": {
+      "numberOfRuns": 1,
+      "settings": {
+        "chromeFlags": "--disable-gpu --no-sandbox --no-zygote",
+        "configPath": "./lighthouse-config.js"
+      }
+    }
+  }
+}
+
