@@ -82,6 +82,6 @@ jobs:
         with:
           urls: |
             http://localhost:3000
-          configPath: './lighthouserc.json'
+          configPath: '../.lighthouserc.json'
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
