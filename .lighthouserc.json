@@ -9,7 +9,7 @@
       "numberOfRuns": 1,
       "settings": {
         "chromeFlags": "--disable-gpu --no-sandbox --no-zygote",
-        "configPath": "./lighthouse-config.js"
+        "configPath": "./.github/lighthouse/lighthouse-config.json"
       }
     }
   }
